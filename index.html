@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora de Mercado</title>
+</head>
+<body>
+    <h1>Calculadora de Mercado</h1>
+    <div id="cart">
+        <h2>Itens do Carrinho:</h2>
+        <ul id="item-list"></ul>
+        <h3>Total: R$ <span id="total">0.00</span></h3>
+    </div>
+    <div id="calculator">
+        <h2>Adicionar Item:</h2>
+        <input type="text" id="item-name" placeholder="Nome do item">
+        <input type="number" id="item-price" placeholder="Preço">
+        <button onclick="addItem()">Adicionar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
